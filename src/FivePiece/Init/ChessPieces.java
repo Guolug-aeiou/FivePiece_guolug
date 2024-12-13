@@ -1,4 +1,4 @@
-package FivePice.Init;
+package FivePiece.Init;
 
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
@@ -46,7 +46,6 @@ public class ChessPieces {
                 this.circle.setStyle("-fx-Fill: #cccccc;");
                 this.circle.setStroke(Color.BLACK);
                 this.setState(true);
-                this.state = true;
                 this.isCamp = 2;
             }
         } else if (camp % 2 == 1) {
@@ -54,7 +53,6 @@ public class ChessPieces {
                 this.circle.setStroke(Color.BLACK);
                 this.circle.setFill(Color.BLACK);
                 this.setState(true);
-                this.state = true;
                 this.isCamp = 1;
             }
         }

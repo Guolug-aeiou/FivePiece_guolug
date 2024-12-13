@@ -1,6 +1,6 @@
-package FivePice.util;
+package FivePiece.util;
 
-import FivePice.Init.ChessPieces;
+import FivePiece.Init.ChessPieces;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.scene.Scene;
@@ -32,7 +32,7 @@ public class Draw extends Application {
     static String blackSideWait = "  | 黑方";
     static Button startButton = new Button("开始游戏");
     static final int LINEAMOUNT = 23; // 行数
-    static ChessPieces[][] chessPieces = new ChessPieces[21][21];
+    static ChessPieces[][] chessPieces = new ChessPieces[23][23];
     static String winner;
 
     @Override
@@ -98,8 +98,8 @@ public class Draw extends Application {
             label1.setText(whiteSideWait);
             imageView1.setImage(imgCircleNot);
             // 在棋盘交叉点上绘制小点
-            int lineX = 80;
-            int lineY = 90;
+            int lineX = 50;
+            int lineY = 60;
             for (int i = 0; i < chessPieces[0].length; i++) {
                 for (int j = 0; j < chessPieces[0].length; j++) {
                     chessPieces[i][j] = new ChessPieces(lineX, lineY, new Circle());

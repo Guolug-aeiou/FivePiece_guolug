@@ -1,6 +1,6 @@
-package FivePice.main;
+package FivePiece.main;
 
-import FivePice.util.Draw;
+import FivePiece.util.Draw;
 import javafx.application.Application;
 
 public class FivePiece{

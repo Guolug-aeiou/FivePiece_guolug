@@ -2,3 +2,5 @@
 
 程序主入口
 1.点击开始游戏,黑方先手,谁先连成5子获胜.
+
+--module-path "resource/javafx-sdk-21.0.5/lib" --add-modules javafx.controls,javafx.fxml
